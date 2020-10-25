@@ -1,0 +1,177 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Massively by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>My<br />
+						Portfolio</h1>
+						<p>A showcase of my projects and abilities</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Portfolio</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Projects</a></li>
+
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/bayron-jaramillo/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://github.com/jarbayron" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+
+
+						<!-- Posts -->
+							<section class="posts">
+								<header>
+									<strong class = "Titles">Calculator</strong>
+
+								</header>
+								
+								<link rel="stylesheet" href="./apps/calc/styles/style.css">
+								<div class="calc">
+									<div class ="screen">00.00</div>
+									<div class ="clear_key key">CLEAR</div>
+									
+									<div class ="container">
+										<div class="Group1">
+											<div class="key">7</div>
+											<div class="key">8</div>
+											<div class="key">9</div>
+											<div class="key">4</div>
+											<div class="key">5</div>
+											<div class="key">6</div>
+											<div class="key">1</div>
+											<div class="key">2</div>
+											<div class="key">3</div>
+											<div class="key">.</div>
+											<div class="key">+/-</div>
+											<div class="key">0</div>
+										</div>
+							
+										<div class= "Group2">
+											<div class = "key_on">%</div>
+											<div class="key_on">X</div>
+											<div class="key_on">+</div>
+										</div>
+							
+										<div class ="Group3">
+											<div class="key_on">nRoot</div>
+											<div class="key_on">/</div>
+											<div class="key_on">-</div>
+											<div class="key_on">=</div>
+										</div>
+									</div>
+									<!--<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'> -->
+								</div>
+								<script src = "./apps/calc/calculator.js"></script>
+								<script src ="./apps/calc/app.js"></script>
+							</section>
+							<!--_________________________________-->
+							<section class="posts">
+								<article>
+									<header>
+										<strong class = "Titles">Table Maker</strong>
+									</header>
+									<em>Please Enter Book Info --></em>
+									<input type="button" value="Click Here">
+									<link rel = "stylesheet" href = "apps/books/styles/style.css">    
+									<div >
+										<table>
+											<thead>
+											<tr>
+												<th>Title</th>  
+												<th>Author</th>
+												<th>Pages</th>
+												<th>Did you Read?</th>
+												<th>DELETE?</th>
+											</tr>
+											</thead>
+							
+											<tbody id = "tableData"> </tbody>
+										</table>
+									</div>
+									<div class = "modal" id = "modal" tabindex="0">
+										<div class = "modal_content">
+											<form>
+												<p>
+													<input type="text" id="author" placeholder="Author:">
+												</p>
+												<p>
+													<input type="text" id = "title" placeholder="Title:">
+												</p>
+												<p>
+													<input type="text" id = "numberPages" placeholder="# Pages">
+												</p>
+												<p>
+													<div>Have you Read it?</div>
+													<input value = "1" name = "choice" type="radio">Yes
+													<input value = "0" name = "choice" type="radio">No
+												</p>
+												<p>
+													<input type="button" value="Send">
+												</p>
+											</form>
+											<span class = "modal_close">x</span>
+							
+							
+										</div>
+							
+									</div>
+									<script src="apps/books/app.js"></script>
+
+
+
+							</section>
+
+						<!-- Footer -->
+
+
+				<!-- Footer -->
+
+
+				<!-- Copyright -->
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,101 @@
+    .NumDecPos {
+        display: grid;
+        grid-gap: 5px;
+
+        width: 500px;
+        align-items: center;
+    }
+
+    .calc {
+        grid-template-areas:
+        10px
+        "clcSCRN"
+        10px
+        "keyClear"
+        "cont"
+        ;
+        width: 500px;
+        background-color: #b6b4af;
+        font-family: 'Orbitron';
+        font-size: 30px;
+        border: 2px solid black;
+        border-radius: 10px;
+        
+    }
+
+    .screen { 
+        grid-area: clcSCRN;
+        height: 40px;
+        width: auto;
+        border: 2px solid black;
+        border-radius: 20px;
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .clear_key{
+        grid-area: keyClear;
+    }
+
+    .container {
+        grid-area: cont; 
+        display: grid; 
+        grid-template-columns: 3fr 1fr 1fr;
+
+    }
+
+    .Group1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .Group2 {
+        display: grid;
+        grid-template-rows: 1fr 1fr 2fr;
+    }
+
+    .Group3 {
+        display: grid;
+        grid-template-rows: repeat(4,1fr);
+    }
+    .key {
+        border: .2px solid black;
+        border-radius: .2px;
+        margin: 2px;
+        font-size: 20px;
+        font-family: "Arial";
+        padding: 10px;
+        transition: all .07s ease;
+        text-align: center;
+        color: black;
+        background-color: blanchedalmond;
+    }
+    .key_off {
+        
+    }
+
+    .key_on {
+        border: .2px solid black;
+        border-radius: .2px;
+        margin: 2px;
+        font-size: 20px;
+        font-family: "Arial";
+        padding: 10px;
+        transition: all .07s ease;
+        text-align: center;
+        color: black;
+        background-color: blanchedalmond;
+    }
+
+    .playing {
+        transform: scale(1.1);
+        border-color: #ffc600;
+        box-shadow: 0 0 1rem #ffc600;
+      }
+
+      .Titles {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+      }
